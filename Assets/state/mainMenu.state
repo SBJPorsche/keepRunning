@@ -1,0 +1,651 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "6b6deba1-1a69-4525-873b-14653eec09f3",
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.5124223602484506,
+      21.51863354037266,
+      1.5124223602484506,
+      21.51863354037266,
+      640,
+      960,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.7562111801242236
+    ],
+    "scaleY": [
+      3,
+      0.7562111801242236
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIRoot",
+        "data": {
+          "uuid": "590c9769-ea4c-4673-a75e-a5ac7b06ef21",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "UIRoot"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.ScaleAdapter",
+              "data": {
+                "class": "qc.ScaleAdapter",
+                "data": {
+                  "enable": true,
+                  "target": null,
+                  "referenceResolution": [
+                    24,
+                    "qc.Point",
+                    [
+                      640,
+                      960
+                    ]
+                  ],
+                  "manualType": [
+                    3,
+                    3
+                  ],
+                  "fullTarget": [
+                    5,
+                    true
+                  ],
+                  "gameObjectRecord": [
+                    4,
+                    [
+                      1,
+                      1,
+                      640,
+                      960
+                    ]
+                  ]
+                }
+              }
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            640,
+            960,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [
+            {
+              "class": "qc.UIImage",
+              "data": {
+                "uuid": "f9252ce2-495c-4531-bc49-3b2d23fb84a9",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "name": [
+                  7,
+                  "mainMenuBg"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  null
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  640,
+                  960,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "texture": [
+                  10,
+                  "Assets/atlas/ui.bin",
+                  "403995d2-5b68-4540-87ae-b54e251c7061"
+                ],
+                "frame": [
+                  7,
+                  "bg01.png"
+                ],
+                "imageType": [
+                  3,
+                  0
+                ]
+              }
+            },
+            {
+              "class": "qc.Button",
+              "data": {
+                "uuid": "32d36e46-3b3e-4796-accd-8053e7a204ef",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "name": [
+                  7,
+                  "Button"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  null
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.TransitionBehaviour",
+                    "data": {
+                      "class": "qc.TransitionBehaviour",
+                      "data": {
+                        "enable": true,
+                        "target": [
+                          18,
+                          "32d36e46-3b3e-4796-accd-8053e7a204ef"
+                        ],
+                        "_transition": [
+                          3,
+                          2
+                        ],
+                        "_normalTexture": [
+                          7,
+                          ""
+                        ],
+                        "_pressedTexture": [
+                          7,
+                          ""
+                        ],
+                        "_disabledTexture": [
+                          7,
+                          ""
+                        ],
+                        "_normalColor": [
+                          14,
+                          4294967295
+                        ],
+                        "_pressedColor": [
+                          14,
+                          4291611852
+                        ],
+                        "_disabledColor": [
+                          14,
+                          4291611852
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "clazz": "qc.engine.startGameBtnClicked",
+                    "data": {
+                      "class": "qc.engine.startGameBtnClicked",
+                      "data": {
+                        "enable": true,
+                        "scene": [
+                          7,
+                          "Game"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "position": [
+                  0.5,
+                  0.5,
+                  0,
+                  0,
+                  320,
+                  480,
+                  156,
+                  56,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  true
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [
+                  {
+                    "class": "qc.UIText",
+                    "data": {
+                      "uuid": "4aa78ac8-3b0d-49e6-96ed-d97456c21de9",
+                      "_prefab": [
+                        7,
+                        ""
+                      ],
+                      "name": [
+                        7,
+                        "Text"
+                      ],
+                      "ignoreDestroy": [
+                        5,
+                        false
+                      ],
+                      "alpha": [
+                        3,
+                        1
+                      ],
+                      "visible": [
+                        5,
+                        true
+                      ],
+                      "colorTint": [
+                        14,
+                        16777215
+                      ],
+                      "static": [
+                        5,
+                        false
+                      ],
+                      "scripts": [
+                        {
+                          "clazz": "qc.NodeMask",
+                          "data": {
+                            "class": "qc.NodeMask",
+                            "data": {
+                              "enable": false,
+                              "checkInField": [
+                                5,
+                                false
+                              ],
+                              "minAnchor": [
+                                24,
+                                "qc.Point",
+                                [
+                                  0,
+                                  0
+                                ]
+                              ],
+                              "maxAnchor": [
+                                24,
+                                "qc.Point",
+                                [
+                                  1,
+                                  1
+                                ]
+                              ],
+                              "minRotation": [
+                                3,
+                                0
+                              ],
+                              "maxRotation": [
+                                3,
+                                6.283185307179586
+                              ],
+                              "clipType": [
+                                3,
+                                1
+                              ],
+                              "mode": [
+                                3,
+                                0
+                              ]
+                            }
+                          }
+                        }
+                      ],
+                      "position": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        -78,
+                        -28,
+                        156,
+                        56,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      "scaleX": [
+                        3,
+                        1
+                      ],
+                      "scaleY": [
+                        3,
+                        1
+                      ],
+                      "rotation": [
+                        3,
+                        0
+                      ],
+                      "interactive": [
+                        5,
+                        false
+                      ],
+                      "isFiltersThrough": [
+                        5,
+                        null
+                      ],
+                      "children": [],
+                      "fontFamily": [
+                        3,
+                        0
+                      ],
+                      "alignH": [
+                        3,
+                        2
+                      ],
+                      "alignV": [
+                        3,
+                        2
+                      ],
+                      "font": [
+                        32,
+                        "Arial",
+                        null
+                      ],
+                      "bold": [
+                        5,
+                        true
+                      ],
+                      "fontSize": [
+                        3,
+                        24
+                      ],
+                      "color": [
+                        14,
+                        4285546685
+                      ],
+                      "text": [
+                        7,
+                        "开始游戏"
+                      ],
+                      "lineSpacing": [
+                        3,
+                        0
+                      ],
+                      "wrap": [
+                        5,
+                        false
+                      ],
+                      "enableGlow": [
+                        5,
+                        false
+                      ],
+                      "startColor": [
+                        14,
+                        4294901760
+                      ],
+                      "endColor": [
+                        14,
+                        4278190080
+                      ],
+                      "gradient": [
+                        5,
+                        false
+                      ],
+                      "stroke": [
+                        14,
+                        4283699987
+                      ],
+                      "strokeThickness": [
+                        3,
+                        3
+                      ],
+                      "glowColor": [
+                        14,
+                        4294901760
+                      ],
+                      "autoSize": [
+                        5,
+                        false
+                      ],
+                      "overflow": [
+                        5,
+                        true
+                      ],
+                      "shadowColor": [
+                        14,
+                        2147483648
+                      ],
+                      "shadowBlur": [
+                        3,
+                        10
+                      ],
+                      "shadowOffsetX": [
+                        3,
+                        3
+                      ],
+                      "shadowOffsetY": [
+                        3,
+                        3
+                      ],
+                      "enableShadow": [
+                        5,
+                        true
+                      ]
+                    }
+                  }
+                ],
+                "texture": [
+                  10,
+                  "Assets/atlas/ui.bin",
+                  "403995d2-5b68-4540-87ae-b54e251c7061"
+                ],
+                "frame": [
+                  7,
+                  "kp-qianghua.png"
+                ],
+                "imageType": [
+                  3,
+                  1
+                ],
+                "text": [
+                  18,
+                  "4aa78ac8-3b0d-49e6-96ed-d97456c21de9"
+                ],
+                "state": [
+                  3,
+                  0
+                ],
+                "supportNativeEvent": [
+                  5,
+                  null
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "403995d2-5b68-4540-87ae-b54e251c7061": {
+      "key": "Assets/atlas/ui.bin",
+      "uuid": "403995d2-5b68-4540-87ae-b54e251c7061"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+<!--编辑器入口HTML文件-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width,user-scalable=no'>
+    <link rel="shortcut icon" href="lib/imgs/qici.ico" />
+    <title>QCEngine</title>
+
+    <script>
+        QCDefault = {
+            toolTipDelay: 1000,
+            labelFont: '10px Arial'
+        };
+    </script>
+    <style>
+        /*去掉Notification导致的滚动条*/
+        body {
+            overflow: hidden;
+        }
+
+        textarea::-webkit-scrollbar {
+            width: 8px;
+        }
+        textarea::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+    </style>
+
+    <script type="text/javascript" src="lib/qc-widget.js"></script>
+    <script type="text/javascript" src="lib/qc-editor.js"></script>
+    <script type="text/javascript" src="lib/prettify.js"></script>
+    <script type="text/javascript" src="lib/socket.io.js"></script>
+    <link rel="stylesheet" href="lib/desert.css">
+    <!-- 以下为插件的扩展脚本 -->
+    <script src="Plugins/com.qici.tweenFunction/Editor/TweenFunctionPanel.js?20151131145849" plugin_id="com.qici.TweenFunction"></script>
+    <script src="Plugins/com.qici.serverCommunicate/Editor/ServerCommnunicateEditor.js?20151131145849" plugin_id="com.qici.serverCommunicate"></script>
+    <script src="Plugins/com.qici.lockOrientation/Editor/LockOrientationEditor.js?20151131145848" plugin_id="com.qici.lockOrientation"></script>
+    <script src="Plugins/com.qici.nodeFadeInOut/Editor/NodeFadeInOutEditor.js?20151131131046" plugin_id="com.qici.nodeFadeInOut"></script>
+    <script src="Plugins/com.qici.arcadePhysics/Editor/RigidBodyEditor.js?20151131131046" plugin_id="com.qici.arcadePhysics"></script>
+
+    <!-- 以下为用户的扩展脚本 -->
+
+</head>
+
+<body onload="G.init();">
+</body>
+</html>

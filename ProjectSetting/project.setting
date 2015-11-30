@@ -1,0 +1,16 @@
+{
+  "projectName": "keepRunning",
+  "gameName": "keepRunning",
+  "companyName": "porsche",
+  "bundleIdentifier": "com.kuka.keepRunning",
+  "gameInstance": "game",
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "developerMode": false,
+  "toolFlag": 4,
+  "version": "1",
+  "loading": "Assets/prefab/loading.bin"
+}

@@ -1,0 +1,132 @@
+{"frames": [
+
+{
+	"filename": "HeiDong1.png",
+	"frame": {"x":1582,"y":340,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong10.png",
+	"frame": {"x":1187,"y":340,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong11.png",
+	"frame": {"x":792,"y":340,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong12.png",
+	"frame": {"x":397,"y":340,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong13.png",
+	"frame": {"x":2,"y":340,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong14.png",
+	"frame": {"x":1582,"y":171,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong15.png",
+	"frame": {"x":1187,"y":171,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong2.png",
+	"frame": {"x":792,"y":171,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong3.png",
+	"frame": {"x":397,"y":171,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong4.png",
+	"frame": {"x":2,"y":171,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong5.png",
+	"frame": {"x":1582,"y":2,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong6.png",
+	"frame": {"x":1187,"y":2,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong7.png",
+	"frame": {"x":792,"y":2,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong8.png",
+	"frame": {"x":397,"y":2,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+},
+{
+	"filename": "HeiDong9.png",
+	"frame": {"x":2,"y":2,"w":393,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":167},
+	"sourceSize": {"w":393,"h":167}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "heidong.png",
+	"format": "RGBA8888",
+	"size": {"w":1977,"h":509},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:6a1360832cbcbfb7807d831fcd689df5$"
+}
+}

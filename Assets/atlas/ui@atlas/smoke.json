@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "smoke1.png",
+	"frame": {"x":152,"y":264,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+},
+{
+	"filename": "smoke2.png",
+	"frame": {"x":152,"y":133,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+},
+{
+	"filename": "smoke3.png",
+	"frame": {"x":77,"y":264,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+},
+{
+	"filename": "smoke4.png",
+	"frame": {"x":77,"y":133,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+},
+{
+	"filename": "smoke5.png",
+	"frame": {"x":2,"y":264,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+},
+{
+	"filename": "smoke6.png",
+	"frame": {"x":2,"y":133,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+},
+{
+	"filename": "smoke7.png",
+	"frame": {"x":152,"y":2,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+},
+{
+	"filename": "smoke8.png",
+	"frame": {"x":77,"y":2,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+},
+{
+	"filename": "smoke9.png",
+	"frame": {"x":2,"y":2,"w":73,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":129},
+	"sourceSize": {"w":73,"h":129}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "smoke.png",
+	"format": "RGBA8888",
+	"size": {"w":227,"h":395},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:8d08686541e51a05f28adbe0dbf05210$"
+}
+}

@@ -1,0 +1,311 @@
+{
+  "class": "qc.Sprite",
+  "data": {
+    "uuid": "159e080a-5de7-4870-8a37-33044c70787c",
+    "_prefab": [
+      7,
+      "1e42df80-fcb7-4566-90ec-daf7c1cafa37"
+    ],
+    "name": [
+      7,
+      "bird"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.arcade.RigidBody",
+        "data": {
+          "class": "qc.arcade.RigidBody",
+          "data": {
+            "enable": true,
+            "mass": [
+              3,
+              1
+            ],
+            "collideWorldBounds": [
+              5,
+              false
+            ],
+            "allowRotation": [
+              5,
+              true
+            ],
+            "allowGravity": [
+              5,
+              true
+            ],
+            "velocity": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "maxVelocity": [
+              24,
+              "qc.Point",
+              [
+                10000,
+                10000
+              ]
+            ],
+            "acceleration": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "drag": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "gravity": [
+              24,
+              "qc.Point",
+              [
+                0,
+                -80
+              ]
+            ],
+            "friction": [
+              24,
+              "qc.Point",
+              [
+                1,
+                0
+              ]
+            ],
+            "angularVelocity": [
+              3,
+              0
+            ],
+            "maxAngular": [
+              3,
+              1000
+            ],
+            "angularAcceleration": [
+              3,
+              0
+            ],
+            "angularDrag": [
+              3,
+              0
+            ],
+            "bounce": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "immovable": [
+              5,
+              false
+            ],
+            "moves": [
+              5,
+              true
+            ],
+            "checkCollision": [
+              9,
+              {
+                "none": false,
+                "any": true,
+                "up": true,
+                "down": true,
+                "left": true,
+                "right": true
+              }
+            ],
+            "tilePadding": null,
+            "collides": [
+              19,
+              []
+            ],
+            "overlaps": [
+              19,
+              []
+            ],
+            "ccdIterations": [
+              1,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.engine.flyBirdJs",
+        "data": {
+          "class": "qc.engine.flyBirdJs",
+          "data": {
+            "enable": true
+          }
+        }
+      },
+      {
+        "clazz": "qc.TweenPosition",
+        "data": {
+          "class": "qc.TweenPosition",
+          "data": {
+            "enable": true,
+            "_curve": [
+              22,
+              "qc.BezierCurve",
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "sampleMethod": [
+              3,
+              0
+            ],
+            "style": [
+              3,
+              2
+            ],
+            "delay": [
+              3,
+              0
+            ],
+            "duration": [
+              3,
+              1
+            ],
+            "tweenGroup": [
+              3,
+              0
+            ],
+            "flag": [
+              7,
+              ""
+            ],
+            "playOnAwake": [
+              5,
+              true
+            ],
+            "from": [
+              24,
+              "qc.Point",
+              [
+                200,
+                0
+              ]
+            ],
+            "to": [
+              24,
+              "qc.Point",
+              [
+                440,
+                0
+              ]
+            ],
+            "moveAxis": [
+              3,
+              1
+            ]
+          }
+        }
+      }
+    ],
+    "position": [
+      0.5,
+      0.5,
+      -4.080000000003338,
+      640,
+      315.91999999999666,
+      1120,
+      100,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      true
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "Assets/atlas/flyBird.bin",
+      "800f302d-0f43-4d99-8e8a-c42b3a505c90"
+    ],
+    "frame": [
+      7,
+      "bird6.png"
+    ],
+    "defaultAnimation": [
+      8,
+      "fly"
+    ]
+  },
+  "dependences": {
+    "800f302d-0f43-4d99-8e8a-c42b3a505c90": {
+      "key": "Assets/atlas/flyBird.bin",
+      "uuid": "800f302d-0f43-4d99-8e8a-c42b3a505c90"
+    }
+  }
+}

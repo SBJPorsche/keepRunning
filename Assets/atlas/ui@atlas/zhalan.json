@@ -1,0 +1,28 @@
+{"frames": {
+
+"ground_grass.png":
+{
+	"frame": {"x":384,"y":2,"w":380,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":380,"h":94},
+	"sourceSize": {"w":380,"h":94}
+},
+"ground_grass_broken.png":
+{
+	"frame": {"x":2,"y":2,"w":380,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":380,"h":94},
+	"sourceSize": {"w":380,"h":94}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "zhalan.png",
+	"format": "RGBA8888",
+	"size": {"w":766,"h":98},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f1ea64e47be0802b0c9bfe88739e458e:e6ce3800e5c755b6db5cbf96821ac1b0:2d256228d9bf92d78f2b123d51775a20$"
+}
+}

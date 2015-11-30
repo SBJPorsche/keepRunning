@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width,user-scalable=no'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-title' content='QICI Engine'>
+    <link rel='apple-touch-icon' href='../../build/imgs/qici.png'>
+    <link rel='apple-touch-startup-image' href='../../build/imgs/qici.png'>
+
+    <link rel="shortcut icon" href="../../lib/imgs/qici.ico" />
+    <title>游戏的启动脚本</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/Assets/css/style.css"/>
+
+    <script>
+                var qici = {};
+        qici.config = {
+            // 项目名，默认为：Game
+            projectName: 'keepRunning',
+        
+            // 游戏名字，默认为：未命名
+            gameName: 'keepRunning',
+        
+            // 开发者名字，默认为：DefaultCompany
+            companyName: 'porsche',
+        
+            // 项目唯一标识，默认为：com.DefaultCompany.Game
+            bundleIdentifier: 'com.kuka.keepRunning',
+        
+            // 游戏示例，将作为全局变量访问，默认为：game
+            gameInstance: 'game',
+            
+            // 游戏背景色
+            backgroundColor: 4671303,
+        
+            // 后台运行
+            runInBackground: true,
+        
+            // 抗锯齿
+            antialias: true,
+
+            // 渲染方式
+            renderer: 'Auto',
+        
+            // 背景透明
+            transparent: false,
+        
+            // 游戏切屏时的进度界面
+            loadingPrefab: 'Assets/prefab/loading.bin',
+
+            // 开发模式
+            developerMode: true,
+        
+            // 所有的游戏场景
+            scene: {
+                editor : 'Temp/scene_editor.bin'
+                ,
+            "mainMenu" : "Assets/state/mainMenu.bin",
+            "Game" : "Assets/state/Game.bin"
+            },
+            
+            // 入口场景
+            entityScene : 'editor',
+            loading: {
+                loadingInterval: 200,
+                brightingInterval: 10,
+                blinkingCount: 5,
+                blinkingInterval: 70,
+                fadingInterval: 1
+            }
+        };
+
+        qici.config.developerMode = true;
+
+        		_pluginVariables_={
+	"com.qici.lockOrientation": {},
+	"com.qici.serverCommunicate": {},
+	"com.qici.TweenFunction": {},
+	"com.qici.wechat": {}
+}
+
+        qici.scripts = [
+            './Assets/meta/globalUrlMap.js?20151131181224',
+            '../lib/phaser.js',
+            '../lib/webfontloader.js',
+            '../lib/qc-core-debug.js',
+            // External scripts for plugins
+            
+            // Plugins scripts
+            			['../Plugins/com.qici.wxShare/Script/wx.js?20151131145851', 'com.qici.wxShare'],
+			['../Plugins/com.qici.wechat/Script/WeChat.js?20151131145850', 'com.qici.wechat'],
+			['../Plugins/com.qici.wechat/Script/wx.js?20151131145850', 'com.qici.wechat'],
+			['../Plugins/com.qici.tweenFunction/Script/TweenFunction.js?20151131145849', 'com.qici.TweenFunction'],
+			['../Plugins/com.qici.serverCommunicate/Script/md5.js?20151131145849', 'com.qici.serverCommunicate'],
+			['../Plugins/com.qici.serverCommunicate/Script/ServerCommunicate.js?20151131145849', 'com.qici.serverCommunicate'],
+			['../Plugins/com.qici.lockOrientation/Script/LockOrientation.js?20151131145848', 'com.qici.lockOrientation'],
+			['../Plugins/com.qici.nodeFadeInOut/Script/NodeFadeInOut.js?20151131131046', 'com.qici.nodeFadeInOut'],
+			['../Plugins/com.qici.arcadePhysics/Script/World.js?20151131131046', 'com.qici.arcadePhysics'],
+			['../Plugins/com.qici.arcadePhysics/Script/Body.js?20151131131046', 'com.qici.arcadePhysics'],
+			['../Plugins/com.qici.arcadePhysics/Script/RigidBody.js?20151131131046', 'com.qici.arcadePhysics'],
+
+            // User scripts
+            			'../Scripts/keepRunning.js?20151131144129',
+			'../Scripts/ui/LoadingUI.js?20151131131046',
+			'../Scripts/ui/bgLoop.js?20151131132108',
+			'../Scripts/logic/startGameBtnClicked.js?20151131131046',
+			'../Scripts/logic/playerJs.js?20151131144511',
+			'../Scripts/logic/gameJs.js?20151131181224',
+			'../Scripts/logic/flyBirdJs.js?20151131151939',
+			'../Scripts/logic/fenceJs.js?20151131131046',
+			'../Scripts/logic/arrowR.js?20151131180733',
+			'../Scripts/logic/arrowLJs.js?20151131180102',
+
+        ];
+        
+    </script>
+</head>
+
+<body onload="qici.init();">
+<div id="gameDiv" style="position:absolute;width:100%;height:100%"></div>
+
+<script src='../../lib/qc-loading-debug.js'></script>
+<script src='../../lib/qc-loading-editor.js'></script>
+</body>
+</html>

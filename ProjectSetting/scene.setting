@@ -1,0 +1,7 @@
+{
+  "scene": {
+    "mainMenu": "Assets/state/mainMenu.bin",
+    "Game": "Assets/state/Game.bin"
+  },
+  "entityScene": "mainMenu"
+}

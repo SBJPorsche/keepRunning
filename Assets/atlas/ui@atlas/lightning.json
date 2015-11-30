@@ -1,0 +1,124 @@
+{"frames": [
+
+{
+	"filename": "Lightning1.png",
+	"frame": {"x":1112,"y":150,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning10.png",
+	"frame": {"x":1482,"y":76,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning11.png",
+	"frame": {"x":1112,"y":76,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning12.png",
+	"frame": {"x":1482,"y":2,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning13.png",
+	"frame": {"x":1112,"y":2,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning14.png",
+	"frame": {"x":742,"y":150,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning2.png",
+	"frame": {"x":742,"y":76,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning3.png",
+	"frame": {"x":742,"y":2,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning4.png",
+	"frame": {"x":372,"y":150,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning5.png",
+	"frame": {"x":372,"y":76,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning6.png",
+	"frame": {"x":372,"y":2,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning7.png",
+	"frame": {"x":2,"y":150,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning8.png",
+	"frame": {"x":2,"y":76,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+},
+{
+	"filename": "Lightning9.png",
+	"frame": {"x":2,"y":2,"w":368,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":72},
+	"sourceSize": {"w":368,"h":72}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "lightning.png",
+	"format": "RGBA8888",
+	"size": {"w":1852,"h":224},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:e2cc1e82d6d839dc9e21814342fd98de$"
+}
+}

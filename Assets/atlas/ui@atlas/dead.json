@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "dead1.png",
+	"frame": {"x":1526,"y":2,"w":252,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":236},
+	"sourceSize": {"w":252,"h":236}
+},
+{
+	"filename": "dead2.png",
+	"frame": {"x":1272,"y":2,"w":252,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":236},
+	"sourceSize": {"w":252,"h":236}
+},
+{
+	"filename": "dead3.png",
+	"frame": {"x":1018,"y":2,"w":252,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":236},
+	"sourceSize": {"w":252,"h":236}
+},
+{
+	"filename": "dead4.png",
+	"frame": {"x":764,"y":2,"w":252,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":236},
+	"sourceSize": {"w":252,"h":236}
+},
+{
+	"filename": "dead5.png",
+	"frame": {"x":510,"y":2,"w":252,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":236},
+	"sourceSize": {"w":252,"h":236}
+},
+{
+	"filename": "dead6.png",
+	"frame": {"x":256,"y":2,"w":252,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":236},
+	"sourceSize": {"w":252,"h":236}
+},
+{
+	"filename": "dead7.png",
+	"frame": {"x":2,"y":2,"w":252,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":236},
+	"sourceSize": {"w":252,"h":236}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "dead.png",
+	"format": "RGBA8888",
+	"size": {"w":1780,"h":240},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:ec2a29a713737ba83e418ceb8c493719$"
+}
+}
