@@ -1,7 +1,7 @@
 {
   "class": "qc.UIImage",
   "data": {
-    "uuid": "b1fc3168-2013-46ee-83ed-efff53165c9b",
+    "uuid": "385f2926-8e03-4aab-8f45-ad8d84e79789",
     "_prefab": [
       7,
       "9ba7356c-f5be-4437-b111-7dd97ab3d8b0"
@@ -176,7 +176,7 @@
       0,
       640,
       320,
-      1208,
+      1120,
       100,
       104,
       0,
@@ -212,7 +212,7 @@
       {
         "class": "qc.Sprite",
         "data": {
-          "uuid": "5f31a599-4050-44b8-a5c7-d4503b72d472",
+          "uuid": "65ee4706-3bcc-4259-b104-fb6c3c25d8e8",
           "_prefab": [
             7,
             ""
@@ -241,24 +241,167 @@
             5,
             false
           ],
-          "scripts": [],
+          "scripts": [
+            {
+              "clazz": "qc.engine.lockLJs",
+              "data": {
+                "class": "qc.engine.lockLJs",
+                "data": {
+                  "enable": true,
+                  "parent": [
+                    18,
+                    "385f2926-8e03-4aab-8f45-ad8d84e79789"
+                  ]
+                }
+              }
+            },
+            {
+              "clazz": "qc.arcade.RigidBody",
+              "data": {
+                "class": "qc.arcade.RigidBody",
+                "data": {
+                  "enable": true,
+                  "mass": [
+                    3,
+                    1
+                  ],
+                  "collideWorldBounds": [
+                    5,
+                    false
+                  ],
+                  "allowRotation": [
+                    5,
+                    true
+                  ],
+                  "allowGravity": [
+                    5,
+                    true
+                  ],
+                  "velocity": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "maxVelocity": [
+                    24,
+                    "qc.Point",
+                    [
+                      10000,
+                      10000
+                    ]
+                  ],
+                  "acceleration": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "drag": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "gravity": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "friction": [
+                    24,
+                    "qc.Point",
+                    [
+                      1,
+                      0
+                    ]
+                  ],
+                  "angularVelocity": [
+                    3,
+                    0
+                  ],
+                  "maxAngular": [
+                    3,
+                    1000
+                  ],
+                  "angularAcceleration": [
+                    3,
+                    0
+                  ],
+                  "angularDrag": [
+                    3,
+                    0
+                  ],
+                  "bounce": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "immovable": [
+                    5,
+                    false
+                  ],
+                  "moves": [
+                    5,
+                    true
+                  ],
+                  "checkCollision": [
+                    9,
+                    {
+                      "none": false,
+                      "any": true,
+                      "up": true,
+                      "down": true,
+                      "left": true,
+                      "right": true
+                    }
+                  ],
+                  "tilePadding": null,
+                  "collides": [
+                    19,
+                    []
+                  ],
+                  "overlaps": [
+                    19,
+                    []
+                  ],
+                  "ccdIterations": [
+                    1,
+                    0
+                  ]
+                }
+              }
+            }
+          ],
           "position": [
             0.5,
             0.5,
-            -276.22122663508253,
-            151.9216746492889,
-            -276.22122663508253,
-            151.9216746492889,
+            -218.8635654350818,
+            181.84869104928612,
+            -268.8635654350818,
+            129.84869104928612,
             100,
             69,
             0,
             0,
             0,
             0,
-            0.5,
-            0.5,
-            0.5,
-            0.5
+            0,
+            0,
+            0,
+            0
           ],
           "scaleX": [
             3,
@@ -299,7 +442,7 @@
       {
         "class": "qc.Sprite",
         "data": {
-          "uuid": "2f92992f-1a08-460d-961d-94c7ad5cdfb7",
+          "uuid": "b9714a17-1802-4037-8d54-19aaec618f66",
           "_prefab": [
             7,
             ""
@@ -328,24 +471,167 @@
             5,
             false
           ],
-          "scripts": [],
+          "scripts": [
+            {
+              "clazz": "qc.engine.lockLJs",
+              "data": {
+                "class": "qc.engine.lockLJs",
+                "data": {
+                  "enable": true,
+                  "parent": [
+                    18,
+                    "385f2926-8e03-4aab-8f45-ad8d84e79789"
+                  ]
+                }
+              }
+            },
+            {
+              "clazz": "qc.arcade.RigidBody",
+              "data": {
+                "class": "qc.arcade.RigidBody",
+                "data": {
+                  "enable": true,
+                  "mass": [
+                    3,
+                    1
+                  ],
+                  "collideWorldBounds": [
+                    5,
+                    false
+                  ],
+                  "allowRotation": [
+                    5,
+                    true
+                  ],
+                  "allowGravity": [
+                    5,
+                    true
+                  ],
+                  "velocity": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "maxVelocity": [
+                    24,
+                    "qc.Point",
+                    [
+                      10000,
+                      10000
+                    ]
+                  ],
+                  "acceleration": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "drag": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "gravity": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "friction": [
+                    24,
+                    "qc.Point",
+                    [
+                      1,
+                      0
+                    ]
+                  ],
+                  "angularVelocity": [
+                    3,
+                    0
+                  ],
+                  "maxAngular": [
+                    3,
+                    1000
+                  ],
+                  "angularAcceleration": [
+                    3,
+                    0
+                  ],
+                  "angularDrag": [
+                    3,
+                    0
+                  ],
+                  "bounce": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "immovable": [
+                    5,
+                    false
+                  ],
+                  "moves": [
+                    5,
+                    true
+                  ],
+                  "checkCollision": [
+                    9,
+                    {
+                      "none": false,
+                      "any": true,
+                      "up": true,
+                      "down": true,
+                      "left": true,
+                      "right": true
+                    }
+                  ],
+                  "tilePadding": null,
+                  "collides": [
+                    19,
+                    []
+                  ],
+                  "overlaps": [
+                    19,
+                    []
+                  ],
+                  "ccdIterations": [
+                    1,
+                    0
+                  ]
+                }
+              }
+            }
+          ],
           "position": [
             0.5,
             0.5,
-            262.4101632445081,
-            141.7061087850609,
-            262.4101632445081,
-            141.7061087850609,
+            216.52771731736834,
+            188.33218712342,
+            266.52771731736834,
+            136.33218712342,
             100,
             69,
             0,
             0,
             0,
             0,
-            0.5,
-            0.5,
-            0.5,
-            0.5
+            1,
+            0,
+            1,
+            0
           ],
           "scaleX": [
             3,

@@ -2,16 +2,18 @@
 var keyLockJs = qc.defineBehaviour('qc.engine.keyLockJs', qc.Behaviour, function() {
     // need this behaviour schedule in editor
     //this.runInEditor = true;
+    var self = this;
+    self.keyL = null;
+    self.keyR = null;
 }, {
 });
 
 // Awake is called when the script instance is being loaded.
 keyLockJs.prototype.awake = function() {
     var self = this;
-//     var locks = ['suo.png','suo1.png'];
-//     var keys = ['key.png','key1.png'];
-// //     alert(self.gameObject.frame);
-//     self.gameObject.frame = G.game.getRandom(locks);
+    var locks = ['suo.png','suo1.png'];
+    
+    self.gameObject.frame = locks[G.game.math.random(0,1)];
 };
 
 // Update is called every frame, if the behaviour is enabled.
