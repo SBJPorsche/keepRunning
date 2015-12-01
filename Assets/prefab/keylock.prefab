@@ -1,7 +1,7 @@
 {
   "class": "qc.UIImage",
   "data": {
-    "uuid": "da7338a6-bcd6-4d00-963d-fba6f9e668d0",
+    "uuid": "b1fc3168-2013-46ee-83ed-efff53165c9b",
     "_prefab": [
       7,
       "9ba7356c-f5be-4437-b111-7dd97ab3d8b0"
@@ -212,7 +212,7 @@
       {
         "class": "qc.Sprite",
         "data": {
-          "uuid": "bb42ac86-fc40-4a4d-9783-78c0bf1e8257",
+          "uuid": "5f31a599-4050-44b8-a5c7-d4503b72d472",
           "_prefab": [
             7,
             ""
@@ -299,7 +299,7 @@
       {
         "class": "qc.Sprite",
         "data": {
-          "uuid": "1ac5af56-d082-44da-b790-a842ffc8584f",
+          "uuid": "2f92992f-1a08-460d-961d-94c7ad5cdfb7",
           "_prefab": [
             7,
             ""

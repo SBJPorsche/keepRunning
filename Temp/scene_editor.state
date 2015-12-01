@@ -1,7 +1,7 @@
 {
   "class": "qc.Node",
   "data": {
-    "uuid": "99f66930-ac13-4028-98d5-ed2b7b66b983",
+    "uuid": "c72ab020-8962-44bf-ad5a-5c3730bfeac8",
     "_prefab": [
       7,
       "Temp/scene_editor.bin"
@@ -34,12 +34,12 @@
     "position": [
       0,
       0,
-      -59.16118836915297,
-      -86.5,
-      -59.16118836915297,
-      -86.5,
+      -110.26923076923077,
+      -141,
+      -110.26923076923077,
+      -141,
       640,
-      960,
+      1136,
       0,
       0,
       0,
@@ -73,7 +73,7 @@
       {
         "class": "qc.UIRoot",
         "data": {
-          "uuid": "9804a28e-6026-4f37-a4c7-1049e0851c8f",
+          "uuid": "4df54b9a-2248-461a-a79d-dbdbfbd99453",
           "_prefab": [
             7,
             ""
@@ -132,7 +132,7 @@
                       1,
                       1,
                       640,
-                      960
+                      1136
                     ]
                   ]
                 }
@@ -146,7 +146,7 @@
                   "enable": true,
                   "player": [
                     18,
-                    "c2330657-b14c-48f1-bc53-be25b2dd845c"
+                    "95897e60-a854-49a7-b5e5-37852b21e9bd"
                   ]
                 }
               }
@@ -160,7 +160,7 @@
             0,
             0,
             640,
-            960,
+            1136,
             0,
             0,
             0,
@@ -194,7 +194,7 @@
             {
               "class": "qc.Sprite",
               "data": {
-                "uuid": "7590a555-c5a3-4d62-b663-e76563e78daf",
+                "uuid": "b3fd73ed-e224-45f1-b361-a69ea1a654a8",
                 "_prefab": [
                   7,
                   ""
@@ -213,7 +213,7 @@
                 ],
                 "visible": [
                   5,
-                  true
+                  false
                 ],
                 "colorTint": [
                   14,
@@ -232,7 +232,7 @@
                         "enable": true,
                         "bg1": [
                           18,
-                          "7590a555-c5a3-4d62-b663-e76563e78daf"
+                          "b3fd73ed-e224-45f1-b361-a69ea1a654a8"
                         ],
                         "bg2": null
                       }
@@ -296,7 +296,7 @@
             {
               "class": "qc.Sprite",
               "data": {
-                "uuid": "cbc57e75-b986-43f9-9fe7-c4216852a18b",
+                "uuid": "842fdead-da34-4a7f-b9ab-053e15bd8b3a",
                 "_prefab": [
                   7,
                   ""
@@ -315,7 +315,7 @@
                 ],
                 "visible": [
                   5,
-                  true
+                  false
                 ],
                 "colorTint": [
                   14,
@@ -334,7 +334,7 @@
                         "enable": true,
                         "bg1": [
                           18,
-                          "cbc57e75-b986-43f9-9fe7-c4216852a18b"
+                          "842fdead-da34-4a7f-b9ab-053e15bd8b3a"
                         ],
                         "bg2": null
                       }
@@ -398,7 +398,7 @@
             {
               "class": "qc.Node",
               "data": {
-                "uuid": "63ba1c65-b348-4a90-b3d6-ea44280f9e52",
+                "uuid": "41d06d04-1916-4160-a35d-77d2d799f454",
                 "_prefab": [
                   7,
                   ""
@@ -434,7 +434,7 @@
                   0,
                   0,
                   320,
-                  480,
+                  568,
                   100,
                   100,
                   0,
@@ -470,7 +470,7 @@
                   {
                     "class": "qc.Sprite",
                     "data": {
-                      "uuid": "dba52aa9-1cbb-40ea-90fa-3957c497a7bf",
+                      "uuid": "2cce3749-8c2b-4b84-8d17-94c8dcc4c7f0",
                       "_prefab": [
                         7,
                         ""
@@ -557,7 +557,7 @@
                   {
                     "class": "qc.Sprite",
                     "data": {
-                      "uuid": "c2330657-b14c-48f1-bc53-be25b2dd845c",
+                      "uuid": "95897e60-a854-49a7-b5e5-37852b21e9bd",
                       "_prefab": [
                         7,
                         ""

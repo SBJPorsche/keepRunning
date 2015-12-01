@@ -24,7 +24,7 @@ gameJs.prototype.update = function() {
 gameJs.prototype.createEnemy = function() {
     var self = this;
     var id = G.game.math.random(0, 1);
-    id = 3;
+    id = 4;
     if(G.bgRun === true){
         if(id === 0){
             G.game.assets.load('fence', 'Assets/prefab/fence.bin', function(asset) {
@@ -61,5 +61,14 @@ gameJs.prototype.createEnemy = function() {
                 prefabRigidBody.addCollide(self.player);
             });    
         } 
+        
+        if(id === 4){
+            G.game.assets.load('keylock', 'Assets/prefab/keylock.bin', function(asset) {
+                var keylockclone = G.game.assets.find('keylock');
+                var rigidbody = G.game.add.clone(keylockclone);
+                var prefabRigidBody = rigidbody.getScript('qc.arcade.RigidBody');
+                prefabRigidBody.addCollide(self.player);
+            });    
+        }         
     }
 };

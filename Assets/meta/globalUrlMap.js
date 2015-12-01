@@ -119,6 +119,7 @@ urlMapConfig = {
   "f71b5c98-2c03-47d1-bbad-cc4b65cf2e93": "Assets/prefab/arrowR.bin",
   "1e42df80-fcb7-4566-90ec-daf7c1cafa37": "Assets/prefab/bird.bin",
   "302d3e58-034c-4ff2-a187-38d0d2b7b90a": "Assets/prefab/fence.bin",
+  "9ba7356c-f5be-4437-b111-7dd97ab3d8b0": "Assets/prefab/keylock.bin",
   "4676c7a0-8dac-43b3-b5e8-a5f03b4e67b6": "Assets/prefab/loading.bin",
   "31093cf6-c5f8-4539-a46e-e421c1a3a8f7": "Assets/state/Game.bin",
   "cc707300-3b0c-42c9-bd04-5bed54a47c16": "Assets/state/mainMenu.bin",
