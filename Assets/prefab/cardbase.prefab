@@ -1,0 +1,536 @@
+{
+  "class": "qc.UIImage",
+  "data": {
+    "uuid": "1099b2cf-899f-4a57-a6bd-071aba111c85",
+    "_prefab": [
+      7,
+      "9aaa4f49-908d-4b5e-b500-85b381fa129b"
+    ],
+    "name": [
+      7,
+      "cardbase"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.arcade.RigidBody",
+        "data": {
+          "class": "qc.arcade.RigidBody",
+          "data": {
+            "enable": true,
+            "mass": [
+              3,
+              1
+            ],
+            "collideWorldBounds": [
+              5,
+              false
+            ],
+            "allowRotation": [
+              5,
+              true
+            ],
+            "allowGravity": [
+              5,
+              true
+            ],
+            "velocity": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "maxVelocity": [
+              24,
+              "qc.Point",
+              [
+                10000,
+                10000
+              ]
+            ],
+            "acceleration": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "drag": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "gravity": [
+              24,
+              "qc.Point",
+              [
+                0,
+                -80
+              ]
+            ],
+            "friction": [
+              24,
+              "qc.Point",
+              [
+                1,
+                0
+              ]
+            ],
+            "angularVelocity": [
+              3,
+              0
+            ],
+            "maxAngular": [
+              3,
+              1000
+            ],
+            "angularAcceleration": [
+              3,
+              0
+            ],
+            "angularDrag": [
+              3,
+              0
+            ],
+            "bounce": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "immovable": [
+              5,
+              false
+            ],
+            "moves": [
+              5,
+              true
+            ],
+            "checkCollision": [
+              9,
+              {
+                "none": false,
+                "any": true,
+                "up": true,
+                "down": true,
+                "left": true,
+                "right": true
+              }
+            ],
+            "tilePadding": null,
+            "collides": [
+              19,
+              []
+            ],
+            "overlaps": [
+              19,
+              []
+            ],
+            "ccdIterations": [
+              1,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.engine.cardbase",
+        "data": {
+          "class": "qc.engine.cardbase",
+          "data": {
+            "enable": true
+          }
+        }
+      }
+    ],
+    "position": [
+      0.5,
+      0.5,
+      22.71310012440165,
+      716.656712919857,
+      342.71310012440165,
+      1196.656712919857,
+      130,
+      185,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "1999c110-fbde-4b7c-8c33-cafe80995a32",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "card1"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.engine.cardJs",
+              "data": {
+                "class": "qc.engine.cardJs",
+                "data": {
+                  "enable": true,
+                  "parent": [
+                    18,
+                    "1099b2cf-899f-4a57-a6bd-071aba111c85"
+                  ]
+                }
+              }
+            }
+          ],
+          "position": [
+            0.5,
+            0.5,
+            -248.02848004280702,
+            246.00066940667716,
+            -248.02848004280702,
+            246.00066940667716,
+            130,
+            185,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            true
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/ui.bin",
+            "403995d2-5b68-4540-87ae-b54e251c7061"
+          ],
+          "frame": [
+            7,
+            "card_28.png"
+          ],
+          "defaultAnimation": [
+            8,
+            null
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "67060704-b5d2-4112-93d5-46606eadeb41",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "card2"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.engine.cardJs",
+              "data": {
+                "class": "qc.engine.cardJs",
+                "data": {
+                  "enable": true,
+                  "parent": [
+                    18,
+                    "1099b2cf-899f-4a57-a6bd-071aba111c85"
+                  ]
+                }
+              }
+            }
+          ],
+          "position": [
+            0.5,
+            0.5,
+            246.52023282837388,
+            247.81157492497368,
+            246.52023282837388,
+            247.81157492497368,
+            130,
+            185,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            true
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/ui.bin",
+            "403995d2-5b68-4540-87ae-b54e251c7061"
+          ],
+          "frame": [
+            7,
+            "card_26.png"
+          ],
+          "defaultAnimation": [
+            8,
+            null
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "9f59b45a-7d81-4402-91fc-498b6cce380f",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "card3"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.engine.cardJs",
+              "data": {
+                "class": "qc.engine.cardJs",
+                "data": {
+                  "enable": true,
+                  "parent": [
+                    18,
+                    "1099b2cf-899f-4a57-a6bd-071aba111c85"
+                  ]
+                }
+              }
+            }
+          ],
+          "position": [
+            0.5,
+            0.5,
+            2.169051177915776,
+            241.1379593240772,
+            2.169051177915776,
+            241.1379593240772,
+            130,
+            185,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            true
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/ui.bin",
+            "403995d2-5b68-4540-87ae-b54e251c7061"
+          ],
+          "frame": [
+            7,
+            "card_38.png"
+          ],
+          "defaultAnimation": [
+            8,
+            null
+          ]
+        }
+      }
+    ],
+    "texture": [
+      10,
+      "Assets/atlas/ui.bin",
+      "403995d2-5b68-4540-87ae-b54e251c7061"
+    ],
+    "frame": [
+      7,
+      "card_26.png"
+    ],
+    "imageType": [
+      3,
+      0
+    ]
+  },
+  "dependences": {
+    "403995d2-5b68-4540-87ae-b54e251c7061": {
+      "key": "Assets/atlas/ui.bin",
+      "uuid": "403995d2-5b68-4540-87ae-b54e251c7061"
+    }
+  }
+}

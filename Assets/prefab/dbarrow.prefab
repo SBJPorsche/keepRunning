@@ -1,0 +1,593 @@
+{
+  "class": "qc.UIImage",
+  "data": {
+    "uuid": "4e329a42-7703-41e9-a631-fe206f92d252",
+    "_prefab": [
+      7,
+      "948dc0d6-ae45-42d6-a454-7057fbae126d"
+    ],
+    "name": [
+      7,
+      "dbarrow"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.arcade.RigidBody",
+        "data": {
+          "class": "qc.arcade.RigidBody",
+          "data": {
+            "enable": true,
+            "mass": [
+              3,
+              1
+            ],
+            "collideWorldBounds": [
+              5,
+              false
+            ],
+            "allowRotation": [
+              5,
+              true
+            ],
+            "allowGravity": [
+              5,
+              true
+            ],
+            "velocity": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "maxVelocity": [
+              24,
+              "qc.Point",
+              [
+                10000,
+                10000
+              ]
+            ],
+            "acceleration": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "drag": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "gravity": [
+              24,
+              "qc.Point",
+              [
+                0,
+                -80
+              ]
+            ],
+            "friction": [
+              24,
+              "qc.Point",
+              [
+                1,
+                0
+              ]
+            ],
+            "angularVelocity": [
+              3,
+              0
+            ],
+            "maxAngular": [
+              3,
+              1000
+            ],
+            "angularAcceleration": [
+              3,
+              0
+            ],
+            "angularDrag": [
+              3,
+              0
+            ],
+            "bounce": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "immovable": [
+              5,
+              false
+            ],
+            "moves": [
+              5,
+              true
+            ],
+            "checkCollision": [
+              9,
+              {
+                "none": false,
+                "any": true,
+                "up": true,
+                "down": true,
+                "left": true,
+                "right": true
+              }
+            ],
+            "tilePadding": null,
+            "collides": [
+              19,
+              []
+            ],
+            "overlaps": [
+              19,
+              []
+            ],
+            "ccdIterations": [
+              1,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.engine.dbarrowJs",
+        "data": {
+          "class": "qc.engine.dbarrowJs",
+          "data": {
+            "enable": true
+          }
+        }
+      }
+    ],
+    "position": [
+      0.5,
+      0.5,
+      0,
+      640,
+      320,
+      1120,
+      380,
+      94,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "98b7e33a-8cb6-4715-9dbf-dea2fe6e21a7",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "arrowL"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.engine.dbarrowDragJs",
+              "data": {
+                "class": "qc.engine.dbarrowDragJs",
+                "data": {
+                  "enable": true,
+                  "parent": [
+                    18,
+                    "4e329a42-7703-41e9-a631-fe206f92d252"
+                  ]
+                }
+              }
+            },
+            {
+              "clazz": "qc.TweenPosition",
+              "data": {
+                "class": "qc.TweenPosition",
+                "data": {
+                  "enable": false,
+                  "_curve": [
+                    22,
+                    "qc.BezierCurve",
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "sampleMethod": [
+                    3,
+                    0
+                  ],
+                  "style": [
+                    3,
+                    0
+                  ],
+                  "delay": [
+                    3,
+                    0
+                  ],
+                  "duration": [
+                    3,
+                    0.5
+                  ],
+                  "tweenGroup": [
+                    3,
+                    0
+                  ],
+                  "flag": [
+                    7,
+                    ""
+                  ],
+                  "playOnAwake": [
+                    5,
+                    false
+                  ],
+                  "from": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "to": [
+                    24,
+                    "qc.Point",
+                    [
+                      -1800,
+                      0
+                    ]
+                  ],
+                  "moveAxis": [
+                    3,
+                    1
+                  ]
+                }
+              }
+            }
+          ],
+          "position": [
+            0.5,
+            0.5,
+            -196.3609070259855,
+            -13.3061575225679,
+            -196.3609070259855,
+            -13.3061575225679,
+            400,
+            106,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            true
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/ui.bin",
+            "403995d2-5b68-4540-87ae-b54e251c7061"
+          ],
+          "frame": [
+            7,
+            "drag.png"
+          ],
+          "defaultAnimation": [
+            8,
+            null
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "5e77a89a-e0f4-4f43-a7a8-22da7c7348a3",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "arrowR"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.engine.dbarrowDragJs",
+              "data": {
+                "class": "qc.engine.dbarrowDragJs",
+                "data": {
+                  "enable": true,
+                  "parent": [
+                    18,
+                    "4e329a42-7703-41e9-a631-fe206f92d252"
+                  ]
+                }
+              }
+            },
+            {
+              "clazz": "qc.TweenPosition",
+              "data": {
+                "class": "qc.TweenPosition",
+                "data": {
+                  "enable": false,
+                  "_curve": [
+                    22,
+                    "qc.BezierCurve",
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "sampleMethod": [
+                    3,
+                    0
+                  ],
+                  "style": [
+                    3,
+                    0
+                  ],
+                  "delay": [
+                    3,
+                    0
+                  ],
+                  "duration": [
+                    3,
+                    0.5
+                  ],
+                  "tweenGroup": [
+                    3,
+                    0
+                  ],
+                  "flag": [
+                    7,
+                    ""
+                  ],
+                  "playOnAwake": [
+                    5,
+                    false
+                  ],
+                  "from": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "to": [
+                    24,
+                    "qc.Point",
+                    [
+                      1800,
+                      0
+                    ]
+                  ],
+                  "moveAxis": [
+                    3,
+                    1
+                  ]
+                }
+              }
+            }
+          ],
+          "position": [
+            0.5,
+            0.5,
+            166.85855539113663,
+            -11.618768535002346,
+            166.85855539113663,
+            -11.618768535002346,
+            400,
+            106,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            3.141592653589793
+          ],
+          "interactive": [
+            5,
+            true
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/ui.bin",
+            "403995d2-5b68-4540-87ae-b54e251c7061"
+          ],
+          "frame": [
+            7,
+            "drag.png"
+          ],
+          "defaultAnimation": [
+            8,
+            null
+          ]
+        }
+      }
+    ],
+    "texture": [
+      10,
+      "Assets/atlas/ui.bin",
+      "403995d2-5b68-4540-87ae-b54e251c7061"
+    ],
+    "frame": [
+      7,
+      "touming.png"
+    ],
+    "imageType": [
+      3,
+      0
+    ]
+  },
+  "dependences": {
+    "403995d2-5b68-4540-87ae-b54e251c7061": {
+      "key": "Assets/atlas/ui.bin",
+      "uuid": "403995d2-5b68-4540-87ae-b54e251c7061"
+    }
+  }
+}
