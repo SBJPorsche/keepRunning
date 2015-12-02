@@ -1,7 +1,7 @@
 {
   "class": "qc.Node",
   "data": {
-    "uuid": "0f1a9825-641b-4a29-984b-c49e815747c7",
+    "uuid": "cc06a5b2-9b87-484c-bf7f-48158c485048",
     "_prefab": [
       7,
       "Temp/scene_editor.bin"
@@ -34,10 +34,10 @@
     "position": [
       0,
       0,
-      1.7484472049689543,
-      9.372670807453403,
-      1.7484472049689543,
-      9.372670807453403,
+      1.5714285714285268,
+      51.857142857142776,
+      1.5714285714285268,
+      51.857142857142776,
       640,
       960,
       0,
@@ -51,11 +51,11 @@
     ],
     "scaleX": [
       3,
-      0.8742236024844721
+      0.7857142857142857
     ],
     "scaleY": [
       3,
-      0.8742236024844721
+      0.7857142857142857
     ],
     "rotation": [
       3,
@@ -73,7 +73,7 @@
       {
         "class": "qc.UIRoot",
         "data": {
-          "uuid": "a2d9b939-0e62-4225-a7e2-30669bc38e17",
+          "uuid": "e5966e82-9e4e-4353-8c48-db3f93512f17",
           "_prefab": [
             7,
             ""
@@ -146,7 +146,7 @@
                   "enable": true,
                   "player": [
                     18,
-                    "b09dfe7f-cf19-4bf3-9e76-79d1092c52e0"
+                    "d590f9c7-05d3-4834-ae9d-3b6786ef16e3"
                   ]
                 }
               }
@@ -194,7 +194,7 @@
             {
               "class": "qc.Sprite",
               "data": {
-                "uuid": "f2a57b3b-fd9f-44e4-8187-acd7210cf341",
+                "uuid": "518409e3-688d-42b8-ba95-a051facd8d3e",
                 "_prefab": [
                   7,
                   ""
@@ -213,7 +213,7 @@
                 ],
                 "visible": [
                   5,
-                  false
+                  true
                 ],
                 "colorTint": [
                   14,
@@ -232,7 +232,7 @@
                         "enable": true,
                         "bg1": [
                           18,
-                          "f2a57b3b-fd9f-44e4-8187-acd7210cf341"
+                          "518409e3-688d-42b8-ba95-a051facd8d3e"
                         ],
                         "bg2": null
                       }
@@ -296,7 +296,7 @@
             {
               "class": "qc.Sprite",
               "data": {
-                "uuid": "5cd2a408-6d09-4d79-bc06-18490d1a5f3e",
+                "uuid": "57403309-8748-49f5-bfa0-e7be9ccf02bb",
                 "_prefab": [
                   7,
                   ""
@@ -315,7 +315,7 @@
                 ],
                 "visible": [
                   5,
-                  false
+                  true
                 ],
                 "colorTint": [
                   14,
@@ -334,7 +334,7 @@
                         "enable": true,
                         "bg1": [
                           18,
-                          "5cd2a408-6d09-4d79-bc06-18490d1a5f3e"
+                          "57403309-8748-49f5-bfa0-e7be9ccf02bb"
                         ],
                         "bg2": null
                       }
@@ -398,7 +398,7 @@
             {
               "class": "qc.Node",
               "data": {
-                "uuid": "d33e2345-b16d-4ce2-8f5f-c14f4f1f6dfe",
+                "uuid": "9a8c9430-5bcc-482f-ab5a-92a746a13050",
                 "_prefab": [
                   7,
                   ""
@@ -470,7 +470,7 @@
                   {
                     "class": "qc.Sprite",
                     "data": {
-                      "uuid": "f8c80fff-f7cf-46e4-ad48-9d6a86247f1a",
+                      "uuid": "807e520d-57d7-4c3e-bfe8-a80f171658da",
                       "_prefab": [
                         7,
                         ""
@@ -557,7 +557,7 @@
                   {
                     "class": "qc.Sprite",
                     "data": {
-                      "uuid": "b09dfe7f-cf19-4bf3-9e76-79d1092c52e0",
+                      "uuid": "d590f9c7-05d3-4834-ae9d-3b6786ef16e3",
                       "_prefab": [
                         7,
                         ""

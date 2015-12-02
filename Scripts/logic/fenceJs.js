@@ -15,7 +15,13 @@ fenceJs.prototype.awake = function() {
 
 // Update is called every frame, if the behaviour is enabled.
 fenceJs.prototype.update = function() {
-
+	var self = this;
+    var rigid = self.getScript('qc.arcade.RigidBody');
+    if(G.bgRun === false){
+	    rigid.moves = false;
+    }else{
+        rigid.moves = true;
+    }
 };
 
 fenceJs.prototype.onCollide = function(o1,o2) {

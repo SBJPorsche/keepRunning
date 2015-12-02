@@ -43,7 +43,6 @@ dbarrowDragJs.prototype.onDrag = function(e) {
                 tp.play();
                 tp.onFinished.add(function(){
                     self.parent.al = false;
-                    G.game.log.trace('++++++++++++++++++++++arrowL+');
                     if(self.parent.ar === false){
                         G.bgRun = true;
                         self.touchdone = true;
@@ -63,7 +62,6 @@ dbarrowDragJs.prototype.onDrag = function(e) {
                 tp.play();          
                 tp.onFinished.add(function(){
                     self.parent.ar = false;
-                    G.game.log.trace('++++++++++++++++++++++arrowL+');
                     if(self.parent.al === false){
                         G.bgRun = true;
                         self.parent.destroy();

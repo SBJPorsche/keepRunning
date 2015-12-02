@@ -15,6 +15,12 @@ flyBirdJs.prototype.update = function() {
     if(self.gameObject.y < 0){
         self.gameObject.destroy();
     }
+    var rigid = self.getScript('qc.arcade.RigidBody');
+    if(G.bgRun === false){
+	    rigid.moves = false;
+    }else{
+        rigid.moves = true;
+    }    
 };
 
 flyBirdJs.prototype.onCollide = function(o1,o2) {

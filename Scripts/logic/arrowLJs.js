@@ -49,7 +49,7 @@ arrowLJs.prototype.onDrag = function(e) {
     p = o.parent.toLocal(p);
     if(p.x > o.x){
         o.x = p.x;
-        if(p.x - self.oldPos.x > 300){
+        if(p.x - self.oldPos.x > 100){
             G.bgRun = true;
             self.touchdone = true;
             tp = self.getScript('qc.TweenPosition');

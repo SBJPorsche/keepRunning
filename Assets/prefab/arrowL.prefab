@@ -1,7 +1,7 @@
 {
   "class": "qc.Sprite",
   "data": {
-    "uuid": "7bbc805c-2c69-499f-b173-632c1308f9b2",
+    "uuid": "e79d5fbd-552e-4550-b361-f9353bf7b61e",
     "_prefab": [
       7,
       "6fe7f8a1-aaf1-4d6b-afd1-a58c82898eaa"
@@ -269,11 +269,11 @@
     ],
     "scaleX": [
       3,
-      0.8
+      1
     ],
     "scaleY": [
       3,
-      0.8
+      1
     ],
     "rotation": [
       3,
